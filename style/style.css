@@ -1,0 +1,11 @@
+:root {
+  --unclickButtonColor: #868686;
+  --bgColor: #343a40;
+  --mainfontColor: FFD523;
+  --textColor: FFFFFF;
+  --containerColor: rgba(20, 22, 24, 0.7);
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
