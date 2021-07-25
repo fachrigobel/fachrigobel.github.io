@@ -1,0 +1,68 @@
+@media screen and (min-width: 1024px) {
+  /* Responsive untuk desktop */
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* Responsive untuk tablet */
+  .navbar-brand {
+    font-size: 1.3em;
+  }
+
+  .right-heading-contents > img {
+    width: 300px;
+  }
+
+  .items > img {
+    width: 75px;
+  }
+
+  .projects-heading > h1 {
+    font-size: 1.7em;
+  }
+
+  .line-projects {
+    width: 200px;
+  }
+
+  .left-item > img {
+    width: 300px;
+  }
+
+  .right-item > h4 {
+    font-size: 1.3em;
+  }
+
+  .right-item > p,
+  .projects-languages > p {
+    font-size: 0.8em;
+  }
+
+  .language > img {
+    width: 30px;
+  }
+
+  .experience-heading > h1 {
+    font-size: 1.7em;
+  }
+
+  .item-exp {
+    font-size: 0.9em;
+  }
+
+  .dot {
+    width: 25px;
+    height: 25px;
+  }
+
+  .garis-dot {
+    left: 23px;
+  }
+
+  footer > h2 {
+    font-size: 1.3em;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* Responsive untuk mobile */
+}

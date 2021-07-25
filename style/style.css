@@ -106,6 +106,7 @@ ul {
   grid-template-rows: 130px 40px 0.4fr;
   grid-auto-rows: auto;
   color: white;
+  justify-items: center;
 }
 
 .items .list-head {
@@ -130,10 +131,6 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.projects-heading > h1 {
-  margin: 0 30px;
 }
 
 .line-projects {
