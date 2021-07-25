@@ -1,0 +1,23 @@
+.social-item:hover {
+  background-color: var(--mainColor);
+}
+
+.social-item:hover > .whatsapp {
+  background-image: url("../res/invert-whatsapp.png");
+}
+
+.social-item:hover > .linkedin {
+  background-image: url("../res/invert-linkedin.png");
+}
+
+.social-item:hover > .email {
+  background-image: url("../res/invert-email.png");
+}
+
+.social-item:hover > .instagram {
+  background-image: url("../res/invert-instagram.png");
+}
+
+.social-item:hover > .github {
+  background-image: url("../res/invert-github.png");
+}

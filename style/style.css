@@ -229,19 +229,60 @@ footer > p {
 .media-social {
   margin-top: 30px;
   display: flex;
-}
-
-.social-item {
-  border: 2px solid var(--mainColor);
-  padding: 18px 0;
-  margin: 0 20px;
-  border-radius: 50%;
-  display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.social-item > img {
+.social-item {
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid var(--mainColor);
+  padding: 10px;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+
+.social-item > .whatsapp {
+  background-image: url("../res/whatsapp.png");
   width: 20px;
-  margin: 0 18px;
+  height: 20px;
+  background-size: cover;
+  transition: 0.5s;
+}
+
+.social-item > .linkedin {
+  background-image: url("../res/linkedin.png");
+  width: 20px;
+  height: 20px;
+  background-size: cover;
+  transition: 0.5s;
+}
+
+.social-item > .email {
+  background-image: url("../res/email.png");
+  width: 20px;
+  height: 15px;
+  background-size: cover;
+  transition: 0.5s;
+}
+
+.social-item > .instagram {
+  background-image: url("../res/instagram.png");
+  width: 20px;
+  height: 20px;
+  background-size: cover;
+  transition: 0.5s;
+}
+
+.social-item > .github {
+  background-image: url("../res/github.png");
+  width: 20px;
+  height: 20px;
+  background-size: cover;
+  transition: 0.5s;
 }
