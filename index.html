@@ -23,26 +23,6 @@
 
     <title>Portofolio | Fachri Gobel</title>
     <link rel="stylesheet" href="style/style.css" />
-    <style>
-      .navbar-brand {
-        padding-right: 75px;
-      }
-
-      .items {
-        display: grid;
-        grid-template-rows: 150px 0px;
-        justify-items: center;
-      }
-
-      .items > .item {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-      }
-      .item-heading {
-        margin-top: 50px;
-      }
-    </style>
   </head>
   <body>
     <header>
@@ -76,62 +56,82 @@
         </div>
       </div>
     </header>
+
     <main>
-      <div
-        class="skills container"
-        style="
-          margin-top: 75px;
-          background-color: #bbbb;
-          display: grid;
-          grid-template-columns: repeat(3, 1fr);
-          justify-items: center;
-        "
-      >
+      <div class="skills container d-flex justify-content-around">
         <div class="items">
           <img
             src="res/466-4661766_web-design-and-website-development-icon-web-design.png"
-            alt=""
-            style="width: 100px; margin-top: 30px"
           />
           <p>Designer</p>
-          <div class="item">
-            <p class="item-heading">Design Tools:</p>
-            <p>Adobe XD</p>
-            <p>Figma</p>
-            <p>Photoshop</p>
-          </div>
+          <ul>
+            <li class="list-head">Design Tools:</li>
+            <li>Adobe XD</li>
+            <li>Figma</li>
+            <li>Photoshop</li>
+          </ul>
         </div>
         <div class="items">
-          <img
-            src="res/PngItem_5615118.png"
-            alt=""
-            style="width: 100px; margin-top: 30px"
-          />
+          <img src="res/PngItem_5615118.png" />
           <p>Front End</p>
-          <div class="item">
-            <p class="item-heading">Languages:</p>
-            <p>HTML</p>
-            <p>CSS</p>
-            <p>Javascript</p>
-          </div>
-          <div class="item">
-            <p class="item-heading">Framework:</p>
-            <p>Bootstrap</p>
-          </div>
+          <ul>
+            <li class="list-head">Languages:</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+          </ul>
+          <ul>
+            <li class="list-head">Framework:</li>
+            <li>Bootstrap</li>
+          </ul>
         </div>
         <div class="items">
-          <img
-            src="res/pngfind.com-minecraft-characters-png-6641360.png"
-            alt=""
-            style="width: 100px; margin-top: 30px"
-          />
+          <img src="res/pngfind.com-minecraft-characters-png-6641360.png" />
           <p>Back End</p>
-          <div class="item">
-            <p class="item-heading">Languages:</p>
-            <p>PHP</p>
-            <p>MySQL</p>
+          <ul>
+            <li class="list-head">Languages:</li>
+            <li>PHP</li>
+            <li>MySQL</li>
+          </ul>
+        </div>
+      </div>
+      <div class="projects container">
+        <div class="projects-heading">
+          <span class="line-projects"></span>
+          <h1>My Recent Projects</h1>
+          <span class="line-projects"></span>
+        </div>
+        <div class="project d-flex">
+          <div class="left-item">
+            <img src="res/Left.png" />
+          </div>
+          <div class="right-item">
+            <h4>Sistem Pengelolaan Data Penduduk Desa Kopandakan 2</h4>
+            <p>
+              Sistem ini memiliki 2 user. yang pertama user tamu yang memiliki
+              fitur cari data penduduk desa kopandakan 2 yang sudah terdaftar di
+              dalam sistem dan fitur mengajukan data penduduk yang belum
+              terdaftar di sistem. Kemudian user yang kedua yaitu user admin
+              yang memiliki fitur mengelola data penduduk, mengelola user admin
+              dan mengelola pengajuan data penduduk dari user tamu. Sistem ini
+              dilengkapi juga dengan fitur login.
+            </p>
+            <div class="project-languages">
+              <p>Languages:</p>
+              <div class="language">
+                <img src="res/html.png" />
+                <img src="res/css.png" />
+                <img src="res/js.png" />
+                <img src="res/bootsrap.png" />
+                <img src="res/php.png" />
+                <img src="res/mysql.png" />
+              </div>
+            </div>
           </div>
         </div>
+      </div>
+      <div class="experience container">
+        <h1>Workshop/Experience/Seminar</h1>
       </div>
     </main>
     <footer></footer>

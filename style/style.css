@@ -8,4 +8,72 @@
 
 * {
   font-family: "Roboto", sans-serif;
+  list-style: none;
+}
+
+ul {
+  padding: 0;
+}
+
+.navbar-brand {
+  padding-right: 75px;
+}
+
+.skills {
+  margin-top: 75px;
+  background-color: var(--containerColor);
+  height: 600px;
+}
+
+.items {
+  margin-top: 30px;
+  text-align: center;
+  display: grid;
+  grid-template-rows: 130px 40px;
+  grid-auto-rows: auto;
+}
+
+.items > img {
+  width: 100px;
+}
+
+.items ul {
+  margin-top: 20px;
+}
+
+.projects {
+  margin-top: 75px;
+}
+
+.projects-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects-heading > h1 {
+  margin: 0 30px;
+}
+
+.line-projects {
+  border: 3px solid black;
+  width: 250px;
+  display: block;
+}
+
+.project {
+  margin-top: 50px;
+}
+
+.project .left-item {
+  margin-right: 95px;
+}
+
+.project-languages img {
+  width: 40px;
+  margin-right: 15px;
+}
+
+.experience {
+  margin-top: 75px;
 }
