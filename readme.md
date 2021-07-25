@@ -1,0 +1,6 @@
+# Portofolio Fachri Gobel
+Ini merupakan portofolio saya yang menggunakan HTML, CSS dan JS.
+
+## Requirements:
+- Internet
+- Web Browser (Recommended Google Chrome)
