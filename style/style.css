@@ -1,8 +1,8 @@
 :root {
   --unclickButtonColor: #868686;
   --bgColor: #343a40;
-  --mainfontColor: FFD523;
-  --textColor: FFFFFF;
+  --mainColor: #ffd523;
+  --textColor: #ffffff;
   --containerColor: rgba(20, 22, 24, 0.7);
 }
 
@@ -11,12 +11,24 @@
   list-style: none;
 }
 
+body {
+  background-color: var(--bgColor);
+}
+
 ul {
   padding: 0;
 }
 
+/* Style Header */
 .navbar-brand {
   padding-right: 75px;
+  color: var(--unclickButtonColor);
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.navbar-brand:hover {
+  color: var(--mainColor);
 }
 
 .skills {
@@ -56,8 +68,8 @@ ul {
 }
 
 .line-projects {
-  border: 3px solid black;
-  width: 250px;
+  border: 2px solid black;
+  width: 350px;
   display: block;
 }
 
@@ -76,4 +88,58 @@ ul {
 
 .experience {
   margin-top: 75px;
+}
+
+.experience-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.experience-heading > h1 {
+  margin-left: 30px;
+}
+
+.line-experience {
+  border: 2px solid black;
+  display: block;
+  width: 50%;
+}
+
+.experience-items {
+  display: grid;
+  grid-template-columns: fit-content(100%) 1fr;
+  gap: 10px;
+}
+
+.dot {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+footer {
+  margin-top: 75px;
+  height: 320px;
+  background-color: var(--bgColor);
+  border-top: 2px solid var(--mainColor);
+  color: var(--mainColor);
+}
+
+footer > h2 {
+  padding-top: 30px;
+}
+
+footer > p {
+  margin-top: 40px;
+}
+
+.media-social {
+  margin-top: 30px;
+}
+
+.media-social > img {
+  width: 30px;
+  margin: 0 20px;
 }
