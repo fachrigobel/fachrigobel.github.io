@@ -33,7 +33,7 @@
   }
 
   .right-item > p,
-  .projects-languages > p {
+  .project-languages > p {
     font-size: 0.8em;
   }
 
@@ -65,4 +65,163 @@
 
 @media screen and (max-width: 767px) {
   /* Responsive untuk mobile */
+
+  .navbar > .container {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .heading {
+    flex-direction: column;
+    margin-top: 50px;
+  }
+
+  .right-heading-contents {
+    display: flex;
+    justify-content: center;
+  }
+
+  .right-heading-contents > img {
+    width: 300px;
+  }
+
+  .left-heading-contents {
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+
+  .items {
+    grid-template-rows: 80px 30px 0.4fr;
+  }
+
+  .items > img {
+    width: 60px;
+  }
+
+  .projects-heading {
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid #ffd523;
+    border-bottom: 2px solid #ffd523;
+  }
+
+  .projects-heading > h1 {
+    font-size: 1.5em;
+    margin: 10px 0;
+  }
+
+  .line-projects {
+    display: none;
+  }
+
+  .project {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .project .left-item {
+    margin-right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .left-item > img {
+    width: 300px;
+  }
+
+  .project .right-item > p {
+    font-size: 0.8em;
+  }
+
+  .project-languages img {
+    width: 20px;
+    margin-right: 5px;
+  }
+
+  .experience-heading {
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid #ffd523;
+    border-bottom: 2px solid #ffd523;
+  }
+
+  .line-experience {
+    display: none;
+  }
+
+  .experience-heading > h1 {
+    font-size: 1.3em;
+    margin: 10px 0;
+  }
+
+  .item-exp {
+    font-size: 0.8em;
+  }
+
+  .dot {
+    width: 23px;
+    height: 23px;
+  }
+
+  .garis-dot {
+    left: 22px;
+    height: 290px;
+  }
+
+  footer > h2 {
+    font-size: 1em;
+  }
+
+  .social-item > .whatsapp {
+    width: 15px;
+    height: 15px;
+  }
+
+  .social-item > .linkedin {
+    width: 15px;
+    height: 15px;
+  }
+
+  .social-item > .email {
+    width: 15px;
+    height: 10px;
+  }
+
+  .social-item > .instagram {
+    width: 15px;
+    height: 15px;
+  }
+
+  .social-item > .github {
+    width: 15px;
+    height: 15px;
+  }
+
+  .social-item {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+  }
+
+  footer > p {
+    font-size: 0.7em;
+  }
+
+  .raise-up-btn {
+    width: 40px;
+    height: 40px;
+  }
+
+  .raise-up-btn > .triangle {
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 12px solid black;
+  }
 }

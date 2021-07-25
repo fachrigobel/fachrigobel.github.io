@@ -76,6 +76,11 @@ ul {
 
 .heading {
   color: var(--mainColor);
+  margin-top: 113px;
+}
+
+.left-heading-contents {
+  padding-right: 110px;
 }
 
 .left-heading-contents > p {
