@@ -168,11 +168,12 @@
   .dot {
     width: 23px;
     height: 23px;
+    margin-right: 0px;
+    padding-right: 10px;
   }
 
   .garis-dot {
     left: 22px;
-    height: 290px;
   }
 
   footer > h2 {
