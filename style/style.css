@@ -46,6 +46,7 @@ ul {
   opacity: 0.3;
   transition: 0.5s;
   box-shadow: var(--shadow);
+  z-index: 100;
 }
 
 .raise-up-btn > .triangle {
@@ -151,6 +152,7 @@ ul {
 
 .project .right-item > p {
   color: #fff;
+  text-transform: capitalize;
 }
 
 .project .left-item {
