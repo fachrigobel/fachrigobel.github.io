@@ -22,7 +22,7 @@ ul {
 
 /* style garis pada dot */
 .garis-dot {
-  height: 350px;
+  height: 450px;
   background-color: var(--mainColor);
   width: 3px;
   position: absolute;
