@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Sistem Pengelolaan Data Penduduk Desa Kopandakan 2",
+        "description": "Sistem Ini Memiliki 2 User. Yang Pertama User Tamu Yang Memiliki Fitur Cari Data Penduduk Desa Kopandakan 2 Yang Sudah Terdaftar Di Dalam Sistem Dan Fitur Mengajukan Data Penduduk Yang Belum Terdaftar Di Sistem. Kemudian User Yang Kedua Yaitu User Admin Yang Memiliki Fitur Mengelola Data Penduduk, Mengelola User Admin Dan Mengelola Pengajuan Data Penduduk Dari User Tamu. Sistem Ini Dilengkapi Juga Dengan Fitur Login.",
+        "image": "res/Left.png",
+        "languages": [
+            "res/html.png",
+            "res/css.png",
+            "res/js.png",
+            "res/bootsrap.png",
+            "res/php.png",
+            "res/mysql.png"
+        ]
+    },
+    {
+        "name": "Movie Finder",
+        "description": "Project Ini Melakukan Pencarian Film Berdasarkan Title. Data Diambil Dari Omdbapi.Com Menggunakan Async Vanilla Javascript Jadi Membutuhkan Internet Agar Data Tersebut Berhasil Ditampilkan. Project Ini Menggunakan Web Component, Modules Dan Webpack. Pengguna Tinggal Menginputkan Nama Films Di Kotak Pencarian Yang Telah Disediakan.",
+        "image": "res/movieFinderWebsite.png",
+        "languages": [
+            "res/html.png",
+            "res/css.png",
+            "res/js.png",
+            "res/bootsrap.png"
+        ]
+    }
+]
