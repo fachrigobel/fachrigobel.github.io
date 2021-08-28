@@ -22,5 +22,16 @@
             "res/js.png",
             "res/bootsrap.png"
         ]
+    },
+    {
+        "name": "Pantau Covid-19 Indonesia",
+        "description": "Aplikasi ini memberikan informasi ter-update mengenai data pandemi covid-19 di indonesia secara keseluruhan, data pandemi covid-19 per provinsi indonesia dan data daftar rumah sakit rujukan covid-19 yang berada di indonesia. Aplikasi menggunakan vanilla javascript dan framework bootstrap sebagai tampilannya. Data yang diambil menggunakan teknik async.",
+        "image": "res/PantauCovidWebsite.png",
+        "languages": [
+            "res/html.png",
+            "res/css.png",
+            "res/js.png",
+            "res/bootsrap.png"
+        ]
     }
 ]
