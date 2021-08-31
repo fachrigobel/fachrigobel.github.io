@@ -129,7 +129,7 @@ ul {
 
 /* style recent project */
 .projects {
-  margin-top: 75px;
+  /* margin-top: 75px; */
   color: var(--mainColor);
 }
 
@@ -190,7 +190,7 @@ ul {
 .experience-items {
   color: #fff;
   font-size: 1.3em;
-  margin-top: 50px;
+  /* margin-top: 50px; */
   position: relative;
 }
 
