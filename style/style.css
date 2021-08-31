@@ -218,6 +218,7 @@ footer {
   background-color: var(--bgColor);
   border-top: 2px solid var(--mainColor);
   background-color: var(--containerColor);
+  text-align: center;
 }
 
 footer > h2 {

@@ -1,6 +1,9 @@
 window.addEventListener("DOMContentLoaded", () => {
     const experienceItems = document.querySelector(".experience-items");
     const projectsElement = document.querySelector("#projects");
+    const footer = document.querySelector("footer");
+
+    footer.lastElementChild.innerHTML = `Handcrafted &copy by Fachri Gobel<br>Last Update: ${document.lastModified}`;
 
 
     fetch("./src/data/experience.json")
