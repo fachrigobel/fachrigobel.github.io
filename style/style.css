@@ -133,12 +133,6 @@ ul {
   color: var(--mainColor);
 }
 
-.projects-heading {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .line-projects {
   background-color: var(--mainColor);
   height: 3px;
@@ -165,19 +159,26 @@ ul {
 }
 
 /* style experience */
-.experience {
+.experience,
+#projects-head {
   margin-top: 75px;
   color: var(--mainColor);
 }
 
-.experience-heading {
+.experience-heading,
+.projects-heading {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.experience-heading > h1 {
+.experience-heading > h1,
+.projects-heading > h1 {
   margin-left: 30px;
+}
+
+.projects-heading > .line-projects {
+  width: 70%;
 }
 
 .line-experience {
