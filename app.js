@@ -3,12 +3,19 @@ window.addEventListener("DOMContentLoaded", () => {
     const projectsElement = document.querySelector("#projects");
     const footer = document.querySelector("footer");
     const fotoProfil = document.querySelector("#foto-profil");
+    const skillsPhoto = document.querySelectorAll(".skills-photo");
 
     const imgSource = [
         "photo_2021-07-28_19-18-45.jpg", 
         "photo_2021-07-28_19-18-49.jpg",
         "IMG_20210724_225845_329.jpg"
     ];
+    const skillsPhotoSource = [
+        "466-4661766_web-design-and-website-development-icon-web-design.png",
+        "PngItem_5615118.png",
+        "pngfind.com-minecraft-characters-png-6641360.png"
+    ];
+
     let index = 0;
 
     footer.lastElementChild.innerHTML = `Handcrafted &copy by Fachri Gobel<br>Last Update: ${document.lastModified}`;
@@ -21,6 +28,9 @@ window.addEventListener("DOMContentLoaded", () => {
         index++;
     } , 3000);
 
+    skillsPhoto.forEach((skill,index) => {
+        skill.style.backgroundImage = `url(./res/${skillsPhotoSource[index]})`
+    });
 
     fetch("./src/data/experience.json")
     .then(response => response.json())

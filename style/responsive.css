@@ -8,20 +8,12 @@
     font-size: 1.3em;
   }
 
-  .right-heading-contents > img {
+  .right-heading-contents > #foto-profil {
     width: 300px;
-  }
-
-  .items > img {
-    width: 75px;
   }
 
   .projects-heading > h1 {
     font-size: 1.7em;
-  }
-
-  .line-projects {
-    width: 200px;
   }
 
   .left-item > img {
@@ -98,8 +90,8 @@
     grid-template-rows: 80px 30px 0.4fr;
   }
 
-  .items > img {
-    width: 60px;
+  .items > .skills-photo {
+    width: 80px;
   }
 
   .projects-heading {
