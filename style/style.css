@@ -18,6 +18,7 @@ body {
 
 ul {
   padding: 0;
+  margin: 0;
 }
 
 /* style garis pada dot */
@@ -102,17 +103,15 @@ ul {
   margin-top: 75px;
   background-color: var(--containerColor);
   box-shadow: var(--shadow);
-  height: 600px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .items {
   margin-top: 30px;
+  margin-bottom: 30px;
   text-align: center;
-  display: grid;
-  grid-template-rows: 130px 40px 0.4fr;
-  grid-auto-rows: auto;
   color: white;
-  justify-items: center;
 }
 
 .items .list-head {
@@ -121,15 +120,22 @@ ul {
 
 .items > img {
   width: 100px;
+  height: 100px;
+  object-fit: fill;
+  margin-bottom: 30px;
 }
 
-.items ul {
-  margin-top: 20px;
+.items > p {
+  font-size: 1.2em;
+}
+
+.lists-tools {
+  display: grid;
+  grid-auto-rows: 200px;
 }
 
 /* style recent project */
 .projects {
-  /* margin-top: 75px; */
   color: var(--mainColor);
 }
 
