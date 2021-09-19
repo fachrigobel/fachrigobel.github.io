@@ -93,9 +93,17 @@ ul {
   font-size: 18.72px;
 }
 
-.right-heading-contents > img {
+.right-heading-contents > #foto-profil {
   box-shadow: var(--shadow);
   width: 450px;
+  height: 500px;
+  background-image: url("./../res/IMG_20210724_225845_329.jpg");
+  background-color: #fff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-transition: background-image 0.2s ease-in;
+  transition: background-image 0.2s ease-in;
 }
 
 /* style skill */

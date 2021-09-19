@@ -2,8 +2,24 @@ window.addEventListener("DOMContentLoaded", () => {
     const experienceItems = document.querySelector(".experience-items");
     const projectsElement = document.querySelector("#projects");
     const footer = document.querySelector("footer");
+    const fotoProfil = document.querySelector("#foto-profil");
+
+    const imgSource = [
+        "photo_2021-07-28_19-18-45.jpg", 
+        "photo_2021-07-28_19-18-49.jpg",
+        "IMG_20210724_225845_329.jpg"
+    ];
+    let index = 0;
 
     footer.lastElementChild.innerHTML = `Handcrafted &copy by Fachri Gobel<br>Last Update: ${document.lastModified}`;
+
+    setInterval (async function(){
+        if (index === imgSource.length) {
+            index = 0;
+        }
+        fotoProfil.style.backgroundImage = `url(./res/${imgSource[index]}`;
+        index++;
+    } , 3000);
 
 
     fetch("./src/data/experience.json")
