@@ -6,7 +6,7 @@ window.addEventListener("DOMContentLoaded", () => {
     const skillsPhoto = document.querySelectorAll(".skills-photo");
 
     const imgSource = [
-        "photo_2021-07-28_19-18-45.jpg", 
+        "photo_2021-07-28_19-18-45.jpg",
         "photo_2021-07-28_19-18-49.jpg",
         "IMG_20210724_225845_329.jpg"
     ];
@@ -20,48 +20,50 @@ window.addEventListener("DOMContentLoaded", () => {
 
     footer.lastElementChild.innerHTML = `Handcrafted &copy by Fachri Gobel<br>Last Update: ${document.lastModified}`;
 
-    setInterval (async function(){
+    setInterval(async function () {
         if (index === imgSource.length) {
             index = 0;
         }
         fotoProfil.style.backgroundImage = `url(./res/${imgSource[index]}`;
         index++;
-    } , 3000);
+    }, 3000);
 
-    skillsPhoto.forEach((skill,index) => {
+    skillsPhoto.forEach((skill, index) => {
         skill.style.backgroundImage = `url(./res/${skillsPhotoSource[index]})`
     });
 
     fetch("./src/data/experience.json")
-    .then(response => response.json())
-    .then(responseJSON => {
-        responseJSON.forEach(data => {
-            const itemEXP = document.createElement("div");
-            itemEXP.className = "item-exp";
-            itemEXP.innerHTML = `
+        .then(response => response.json())
+        .then(responseJSON => {
+            responseJSON.forEach(data => {
+                const itemEXP = document.createElement("div");
+                itemEXP.className = "item-exp";
+                itemEXP.innerHTML = `
                 <div class="dot"></div>
                 <p>
                     <span>${data.name}</span> <br />${data.year}
                     <br />${data.organizer}
                 </p>
             `;
-            experienceItems.appendChild(itemEXP);
+                experienceItems.appendChild(itemEXP);
+            });
         });
-    });
 
     fetch("./src/data/recent-projects.json")
-    .then(response => response.json())
-    .then(responseJSON => {
-        responseJSON.forEach(data => {
-            const project = document.createElement("div");
-            project.className = "project d-flex";
-            project.innerHTML = `
+        .then(response => response.json())
+        .then(responseJSON => {
+            responseJSON.forEach(data => {
+                const project = document.createElement("div");
+                project.className = "project d-flex";
+                project.innerHTML = `
             <div class="left-item">
                 <img src="${data.image}" />
             </div>
             <div class="right-item">
                 <h4>${data.name}</h4>
-                <p>${data.description}</p>
+                <p>${data.description} <br/>
+                    ${data.demo ? `<a href="${data.demo}" target="_blank" style="text-decoration: none">Live Demo</a>` : ""}
+                </p>
                 <div class="project-languages">
                     <p>Languages:</p>
                     <div class="language">
@@ -69,14 +71,14 @@ window.addEventListener("DOMContentLoaded", () => {
                 </div>
             </div>
             `;
-            projectsElement.appendChild(project);
+                projectsElement.appendChild(project);
 
-            const lang = document.querySelectorAll(".language");
-            data.languages.forEach(language => {
-                const img = document.createElement("img");
-                img.setAttribute("src", language);
-                lang[lang.length-1].appendChild(img);
-            })
-        });
-    })
+                const lang = document.querySelectorAll(".language");
+                data.languages.forEach(language => {
+                    const img = document.createElement("img");
+                    img.setAttribute("src", language);
+                    lang[lang.length - 1].appendChild(img);
+                })
+            });
+        })
 });

@@ -10,7 +10,8 @@
             "res/bootsrap.png",
             "res/php.png",
             "res/mysql.png"
-        ]
+        ],
+        "demo": ""
     },
     {
         "name": "Movie Finder",
@@ -21,7 +22,8 @@
             "res/css.png",
             "res/js.png",
             "res/bootsrap.png"
-        ]
+        ],
+        "demo": ""
     },
     {
         "name": "Pantau Covid-19 Indonesia",
@@ -32,7 +34,8 @@
             "res/css.png",
             "res/js.png",
             "res/bootsrap.png"
-        ]
+        ],
+        "demo": ""
     },
     {
         "name": "Sistem Pakar Covid-19",
@@ -42,6 +45,7 @@
             "res/js.png",
             "res/nodejs.png",
             "res/mongodb.png"
-        ]
+        ],
+        "demo": "https://sistempakarcovid19.herokuapp.com/"
     }
 ]
