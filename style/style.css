@@ -150,6 +150,10 @@ ul {
   color: var(--mainColor);
 }
 
+.left-item img {
+  width: 400px;
+}
+
 .line-projects {
   background-color: var(--mainColor);
   height: 3px;

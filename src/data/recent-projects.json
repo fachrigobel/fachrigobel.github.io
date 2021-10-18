@@ -33,5 +33,15 @@
             "res/js.png",
             "res/bootsrap.png"
         ]
+    },
+    {
+        "name": "Sistem Pakar Covid-19",
+        "description": "Aplikasi ini dibangun menggunakan Full Javascript. Dimana pada bagian FE menggunakan Vanilla Javascript, BE menggunakan Node js, Express js dan database menggunakan MongoDB. Aplikasi ini memberikan informasi kepada pengguna berupa informasi data sebaran covid-19, berita terbaru mengenai covid-19 yang ada di indonesia dan diagnosa penyakit covid-19 secara mandiri dengan menggunakan metode Centainty Factor. Data perhitungan diagnosa mandiri penyakit covid-19 diambil dari jurnal sistem pakar untuk diagnosa penyakit SARS, MERS dan COVID-19 menggunakan metode centainty factor oleh Fatkhurrozi dan Kurniawan.",
+        "image": "res/sistemPakarCovid19.png",
+        "languages": [
+            "res/js.png",
+            "res/nodejs.png",
+            "res/mongodb.png"
+        ]
     }
 ]
